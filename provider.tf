@@ -5,13 +5,6 @@ terraform {
       version = "4.37.0"
     }
   }
-  backend "azurerm" {
-    resource_group_name  = "dlt"
-    storage_account_name = "efhiofgh"
-    container_name       = "contaner1"
-    key                  = "terraform.tfstate"
-
-  }
 
 }
 provider "azurerm" {
